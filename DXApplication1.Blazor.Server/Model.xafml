@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Application>
-  <Options UIType="TabbedMDI"
-         RestoreTabbedMdiLayout="True"
-         ShowTabImage="True"
-         VirtualScrollingEnabled="True">
-  </Options>
   <NavigationItems NavigationStyle="Accordion">
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="@5a0a749e-c846-4de5-b9dc-05a2074aac51" ViewId="customer_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
   </NavigationItems>
+  <Options UIType="TabbedMDI" RestoreTabbedMdiLayout="True" ShowTabImage="True" VirtualScrollingEnabled="True" />
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="25.1.6.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerBlazorModule" Version="25.1.6.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="25.1.6.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="25.1.6.0" IsNewNode="True" />
+  </SchemaModules>
 </Application>

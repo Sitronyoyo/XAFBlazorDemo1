@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="e887a39f-afc9-4340-986c-ffba0903c4ce" namespace="DXApplication1.Module.BusinessObjects.Database" dataBaseShemaInfo="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" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="ConnectionString" createdInVersion="25.1.6.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="true" lastModifiedInVersion="25.1.6.0" name="Database" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <comments>
+    <dataBaseObjectModelHasComments Id="1543424d-f9ee-4842-a0e7-9645f2dba4f3">
+      <comment Id="1c312710-b5c0-42e9-9e1f-d8cf150728a3" text="Cannot generate a persistent property for the 'OptimisticLockField' column. In XPO, 'OptimisticLockField' is the reserved system field that should not be implemented in your code. Values in this column will be handled internally.;&#xD;&#xA;Cannot generate a persistent property for the 'GCRecord' column. In XPO, 'GCRecord' is the reserved system field that should not be implemented in your code. Values in this column will be handled internally.;&#xD;&#xA;The 'PRIMARY' index is ignored, because 'Oid' is a key;&#xD;&#xA;The reference to the 'GCRecord' property from the 'iGCRecord_Customer' index is ignored." name="CustomerComment">
+        <subjects>
+          <commentReferencesSubjects Id="a260cea4-7dd9-4469-8df1-fcb90cec78d8">
+            <xpObjectMoniker Id="1565b2d1-4ac1-4bc5-ab05-1a9bf9cf6f5e" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+    <dataBaseObjectModelHasComments Id="3c190db2-588d-49ca-bf5e-32f7d737d89e">
+      <comment Id="4ae8d735-faa2-4405-a7d1-7a5d8ea57db3" text="Cannot generate a persistent property for the 'OptimisticLockField' column. In XPO, 'OptimisticLockField' is the reserved system field that should not be implemented in your code. Values in this column will be handled internally.;&#xD;&#xA;Cannot generate a persistent property for the 'GCRecord' column. In XPO, 'GCRecord' is the reserved system field that should not be implemented in your code. Values in this column will be handled internally.;&#xD;&#xA;The 'OID' property is not mapped, because it is exposed by a parent.;&#xD;&#xA;The reference to the 'OID' property from the 'PRIMARY' index is ignored.;&#xD;&#xA;The reference to the 'GCRecord' property from the 'iGCRecord_Invoice' index is ignored.;&#xD;&#xA;The 'iCustomer_Invoice' index is ignored, because 'Customer' is an association key" name="InvoiceComment">
+        <subjects>
+          <commentReferencesSubjects Id="c85afdcd-3924-4c90-baee-136caf455946">
+            <xpObjectMoniker Id="404aa1ac-3aca-406f-a298-61d9f05fe013" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+    <dataBaseObjectModelHasComments Id="706c18bd-4a47-4d0c-a56a-f3ca60b251d3">
+      <comment Id="3fa4f1a1-aa10-4268-a7fc-63ac71fb0d89" text="Cannot generate a persistent property for the 'OptimisticLockField' column. In XPO, 'OptimisticLockField' is the reserved system field that should not be implemented in your code. Values in this column will be handled internally.;&#xD;&#xA;Cannot generate a persistent property for the 'GCRecord' column. In XPO, 'GCRecord' is the reserved system field that should not be implemented in your code. Values in this column will be handled internally.;&#xD;&#xA;The 'PRIMARY' index is ignored, because 'Oid' is a key;&#xD;&#xA;The reference to the 'GCRecord' property from the 'iGCRecord_Order' index is ignored.;&#xD;&#xA;The 'iCustomer_Order' index is ignored, because 'Customer' is an association key" name="OrderComment">
+        <subjects>
+          <commentReferencesSubjects Id="4a99eebf-b48c-4e4b-afb9-d6f02957c398">
+            <xpObjectMoniker Id="40407fed-3632-41de-bb8d-d64d4c0e8ed4" />
+          </commentReferencesSubjects>
+        </subjects>
+      </comment>
+    </dataBaseObjectModelHasComments>
+  </comments>
+  <classes>
+    <dataBaseObjectModelHasClasses Id="1ad8ddf5-7cef-43dd-a39c-50f5bff66a58">
+      <xpObject Id="1565b2d1-4ac1-4bc5-ab05-1a9bf9cf6f5e" name="Customer" baseClass="XPCustomObject" userFileName="Customer" designerFileName="Customer.Designer" className="Customer" initialName="Customer" virtualBaseClass="XPCustomObject" persistent="customer" virtualName="Customer">
+        <fields>
+          <generalXpObjectHasFields Id="38fc9374-b2ca-4908-86a3-0e3d15f856cc">
+            <field Id="e0e21618-cd11-416c-ab0a-68b3c14c68c6" name="Oid" initialName="Oid" key="true" persistent="Oid" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="38" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="73b89c08-1a9b-4a52-b667-a8baceb4037c">
+            <field Id="a13b2715-fbb4-42e0-8f2b-c80c23e6e6a5" name="Name" initialName="Name" persistent="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a7518a93-c15b-4055-b4bb-154d261c625f">
+            <field Id="9f19886b-167d-425d-8d74-34b6762f410c" name="Age" columnType="Int32" initialName="Age" persistent="Age" virtualColumnType="Int32" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="f0b2060d-2df9-4991-937c-e85c8e8f774d" sourceCollectionName="Invoices" name="InvoiceReferencesCustomer" targetFieldName="Customer">
+            <xpObjectMoniker Id="404aa1ac-3aca-406f-a298-61d9f05fe013" />
+          </simpleAssociation>
+          <simpleAssociation Id="3ccdef19-fa35-4bf2-8358-555a9b768e37" sourceCollectionName="Orders" name="OrderReferencesCustomer" targetFieldName="Customer">
+            <xpObjectMoniker Id="40407fed-3632-41de-bb8d-d64d4c0e8ed4" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="e0b2c073-b59a-4476-8655-9079bfe318c8">
+            <collectionField Id="dccc90cd-f12f-4631-ba93-1a5ed0f55154" name="Invoices" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="8dc2d90c-5ff0-4847-8aae-798e452c0f0c">
+            <collectionField Id="c5ff3856-5d9f-442f-a791-0e0bb106595d" name="Orders" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="eda84cb9-72db-42f2-b8ed-dca7ccee5341">
+            <collectionField Id="0dabfa7d-dd02-44a1-a275-3f7728a9ef49" name="TestP1s" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="b59584bb-6113-4db6-bfdd-19262465445f">
+      <xpObject Id="404aa1ac-3aca-406f-a298-61d9f05fe013" name="Invoice" baseClass="XPObject" userFileName="Invoice" designerFileName="Invoice.Designer" className="Invoice" initialName="Invoice" persistent="invoice" virtualName="Invoice">
+        <fields>
+          <generalXpObjectHasFields Id="b855bf43-dc58-4240-b4ad-acac101db608">
+            <field Id="a52ec942-3715-43c7-ba32-1d188f3556bb" name="Date" columnType="DateTime" initialName="Date" persistent="Date" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a0426e13-2e8d-4765-a9ed-f0cf05ac820a">
+            <field Id="a23c9a4e-6a3f-4333-821d-f5fbae575afd" name="Number" initialName="Number" persistent="Number" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b4fa228e-ad76-478a-9842-69cd5e1195f3">
+            <field Id="e3553da8-7f17-41fc-b544-9b7e70e1639a" name="Customer" initialName="Customer" persistent="Customer" virtualColumnType="Customer" logicalType="Customer" delayedUpdateModifiedOnly="false" size="38" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b125ac2c-5be4-44c0-be4e-3ef0fdeb87af">
+            <field Id="942d1c90-f73a-4883-aed1-b108cbd665f8" name="Field1" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="e14788f9-2387-4959-a539-aa2d63d33ca3">
+      <xpObject Id="40407fed-3632-41de-bb8d-d64d4c0e8ed4" name="Order" baseClass="XPCustomObject" userFileName="Order" designerFileName="Order.Designer" className="Order" initialName="Order" virtualBaseClass="XPCustomObject" persistent="order" virtualName="Order">
+        <fields>
+          <generalXpObjectHasFields Id="25a73977-bac2-447b-a433-b154f7ce897f">
+            <field Id="09a7d51d-7445-4f4e-b4f5-e66e77315f0e" name="Oid" initialName="Oid" key="true" persistent="Oid" virtualColumnType="String" delayedUpdateModifiedOnly="false" size="38" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="30a655e2-0220-43da-baae-85f5a2d0cf07">
+            <field Id="d30b4e6a-7ef2-44d7-ade3-538eb4e6d252" name="Orderno" initialName="Orderno" persistent="OrderNo" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c53212d9-d458-4974-a608-c165ab86285b">
+            <field Id="903632c3-e651-4a98-b6a6-febf1bff0bde" name="Orderdate" columnType="DateTime" initialName="Orderdate" persistent="OrderDate" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="49377f80-ac5a-4d1f-b495-22bdac3cf540">
+            <field Id="067f450a-0395-4f00-bc31-a48521d776bf" name="Totalamount" columnType="Decimal" initialName="Totalamount" persistent="TotalAmount" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="a1939362-97c5-47e2-80b2-09ee6d18d365">
+            <field Id="f675af25-5de1-4c59-9564-493bcced7740" name="Customer" initialName="Customer" persistent="Customer" virtualColumnType="Customer" logicalType="Customer" delayedUpdateModifiedOnly="false" size="38" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="942e4a6c-c1ad-49c7-b338-c0bf8893367f">
+      <xpObject Id="e80e9d76-d7e0-4a9d-9fc9-4eddf795a545" name="TestP1" baseClass="XPObject" userFileName="TestP1" designerFileName="TestP1.Designer" className="TestP1" virtualName="TestP1">
+        <fields>
+          <generalXpObjectHasFields Id="8677c3f4-ec78-469f-bee4-610315fa2f5d">
+            <field Id="d5a31ac4-fd06-461e-a66f-e8f33fc9139d" name="P1" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <mMTarget>
+          <manyToManyRelationship Id="dd36ce5f-a4d8-444e-9908-04d0a44b004a" sourceCollectionName="Customers" name="CustomerReferencesTestP1" targetCollectionName="TestP1s">
+            <xpObjectMoniker Id="1565b2d1-4ac1-4bc5-ab05-1a9bf9cf6f5e" />
+          </manyToManyRelationship>
+        </mMTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="e330bbec-68bc-4588-860d-de89e0c2fda6">
+            <collectionField Id="5c316b6a-c2e4-45e3-a3f5-68e81dbd3ede" name="Customers" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
