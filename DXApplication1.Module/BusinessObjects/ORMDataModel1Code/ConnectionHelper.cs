@@ -21,8 +21,7 @@ namespace DXApplication1.Module.BusinessObjects.Database
         static Type[] persistentTypes = new Type[] {
             typeof(Customer),
             typeof(Invoice),
-            typeof(Order),
-            typeof(TestP1)
+            typeof(Order)
         };
         public static Type[] GetPersistentTypes()
         {

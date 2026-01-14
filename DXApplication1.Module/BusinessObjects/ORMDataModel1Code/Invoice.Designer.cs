@@ -19,17 +19,22 @@ namespace DXApplication1.Module.BusinessObjects.Database
     [Persistent(@"invoice")]
     public partial class Invoice : XPObject
     {
-        DateTime fDate;
-        public DateTime Date
+        DateTime fInvoiceDate;
+        [Persistent(@"True")]
+        [DevExpress.Xpo.DisplayName(@"Invoice Date")]
+        public DateTime InvoiceDate
         {
-            get { return fDate; }
-            set { SetPropertyValue<DateTime>(nameof(Date), ref fDate, value); }
+            get { return fInvoiceDate; }
+            set { SetPropertyValue<DateTime>(nameof(InvoiceDate), ref fInvoiceDate, value); }
         }
-        string fNumber;
-        public string Number
+        string fInvoiceNumber;
+        [Size(15)]
+        [Persistent(@"Number")]
+        [DevExpress.Persistent.Validation.RuleRequiredField]
+        public string InvoiceNumber
         {
-            get { return fNumber; }
-            set { SetPropertyValue<string>(nameof(Number), ref fNumber, value); }
+            get { return fInvoiceNumber; }
+            set { SetPropertyValue<string>(nameof(InvoiceNumber), ref fInvoiceNumber, value); }
         }
         Customer fCustomer;
         [Size(38)]
@@ -39,11 +44,24 @@ namespace DXApplication1.Module.BusinessObjects.Database
             get { return fCustomer; }
             set { SetPropertyValue<Customer>(nameof(Customer), ref fCustomer, value); }
         }
-        string fField1;
-        public string Field1
+        DateTime fDueDate;
+        public DateTime DueDate
         {
-            get { return fField1; }
-            set { SetPropertyValue<string>(nameof(Field1), ref fField1, value); }
+            get { return fDueDate; }
+            set { SetPropertyValue<DateTime>(nameof(DueDate), ref fDueDate, value); }
+        }
+        double fAmount;
+        public double Amount
+        {
+            get { return fAmount; }
+            set { SetPropertyValue<double>(nameof(Amount), ref fAmount, value); }
+        }
+        double fTax;
+        [ColumnDefaultValue(0)]
+        public double Tax
+        {
+            get { return fTax; }
+            set { SetPropertyValue<double>(nameof(Tax), ref fTax, value); }
         }
     }
 

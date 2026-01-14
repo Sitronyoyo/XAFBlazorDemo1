@@ -39,8 +39,6 @@ namespace DXApplication1.Module.BusinessObjects.Database
             get { return fAge; }
             set { SetPropertyValue<int>(nameof(Age), ref fAge, value); }
         }
-        [Association(@"CustomerReferencesTestP1")]
-        public XPCollection<TestP1> TestP1s { get { return GetCollection<TestP1>(nameof(TestP1s)); } }
         [Association(@"InvoiceReferencesCustomer")]
         public XPCollection<Invoice> Invoices { get { return GetCollection<Invoice>(nameof(Invoices)); } }
         [Association(@"OrderReferencesCustomer")]
