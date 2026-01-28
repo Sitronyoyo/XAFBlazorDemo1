@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
     <CheckEolTargetFramework>false</CheckEolTargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>ExpressApp.ico</ApplicationIcon>
@@ -36,7 +36,6 @@
     <PackageReference Include="DevExpress.ExpressApp.Office.Win" Version="25.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.ReportsV2.Win" Version="25.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.Scheduler.Win" Version="25.1.6" />
-    <PackageReference Include="DevExpress.ExpressApp.ScriptRecorder.Win" Version="25.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.Validation.Win" Version="25.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.Win" Version="25.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.Win.Design" Version="25.1.6" />

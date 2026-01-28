@@ -38,4 +38,9 @@
   <ItemGroup>
     <ProjectReference Include="..\DXApplication1.Module\DXApplication1.Module.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="UnusableNodes.xml">
+      <DependentUpon>Model.xafml</DependentUpon>
+    </None>
+  </ItemGroup>
 </Project>

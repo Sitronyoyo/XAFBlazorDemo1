@@ -17,17 +17,14 @@ using System.Text;
 namespace DXApplication1.Module.Controllers
 {
     // For more typical usage scenarios, be sure to check out https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ViewController.
-    public partial class TestController : ViewController
+    public partial class ViewController1 : ViewController
     {
         // Use CodeRush to create Controllers and Actions with a few keystrokes.
         // https://docs.devexpress.com/CodeRushForRoslyn/403133/
-        public TestController()
+        public ViewController1()
         {
             InitializeComponent();
             // Target required Views (via the TargetXXX properties) and create their Actions.
-            PopupWindowShowAction testAction = new PopupWindowShowAction(this, "TestAction", PredefinedCategory.Edit);
-          
-
         }
         protected override void OnActivated()
         {

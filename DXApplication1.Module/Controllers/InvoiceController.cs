@@ -27,6 +27,8 @@ namespace DXApplication1.Module.Controllers
         public SimpleAction PayInvoiceAction { get; private set; }
         public SimpleAction CancelInvoiceAction { get; private set; }
 
+        ModificationsController modificationsController;
+
         public InvoiceController()
         {
             InitializeComponent();
@@ -126,6 +128,21 @@ namespace DXApplication1.Module.Controllers
             // 订阅 CurrentObjectChanged 事件，用于刷新 Action 可用性
             View.CurrentObjectChanged += View_CurrentObjectChanged;
             UpdateActions();
+
+            modificationsController = Frame.GetController<ModificationsController>();
+
+            if (modificationsController != null) 
+            {
+                modificationsController.SaveAction.Execute += SaveAction_Execute; 
+
+            }
+        }
+
+        private void SaveAction_Execute(object sender, SimpleActionExecuteEventArgs e)
+        {
+            Application.ShowViewStrategy.ShowMessage(
+                "Test - injection.", InformationType.Success
+            );
         }
 
         private void UpdateActions()
@@ -133,8 +150,12 @@ namespace DXApplication1.Module.Controllers
             if (View.CurrentObject is Invoice invoice)
             {
                 // Invoice 有 InvoiceStatus 属性: Draft, Submitted, Paid, Cancelled
+                
+                // 只有draft状态的发票可以提交
                 SubmitInvoiceAction.Enabled.SetItemValue("StatusCheck", invoice.InvoiceStatus == Status.Draft);
+                // 只有submitted状态的发票可以支付
                 PayInvoiceAction.Enabled.SetItemValue("StatusCheck", invoice.InvoiceStatus == Status.Submitted);
+                // 只有draft和submitted状态的发票可以取消
                 CancelInvoiceAction.Enabled.SetItemValue("StatusCheck", invoice.InvoiceStatus == Status.Draft || invoice.InvoiceStatus == Status.Submitted);
             }
             else

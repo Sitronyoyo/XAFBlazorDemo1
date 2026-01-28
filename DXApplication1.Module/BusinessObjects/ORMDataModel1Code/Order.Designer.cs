@@ -17,16 +17,8 @@ namespace DXApplication1.Module.BusinessObjects.Database
 {
 
     [Persistent(@"order")]
-    public partial class Order : XPCustomObject
+    public partial class Order : XPObject
     {
-        string fOid;
-        [Key]
-        [Size(38)]
-        public string Oid
-        {
-            get { return fOid; }
-            set { SetPropertyValue<string>(nameof(Oid), ref fOid, value); }
-        }
         string fOrderno;
         [Persistent(@"OrderNo")]
         public string Orderno

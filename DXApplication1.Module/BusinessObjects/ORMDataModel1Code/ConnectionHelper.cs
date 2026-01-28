@@ -21,7 +21,11 @@ namespace DXApplication1.Module.BusinessObjects.Database
         static Type[] persistentTypes = new Type[] {
             typeof(Customer),
             typeof(Invoice),
-            typeof(Order)
+            typeof(Order),
+            typeof(ImportParams),
+            typeof(MLDataSet),
+            typeof(DataImport),
+            typeof(CustomerTenant)
         };
         public static Type[] GetPersistentTypes()
         {

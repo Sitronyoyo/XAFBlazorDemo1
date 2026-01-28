@@ -20,8 +20,8 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="DevExpress.ExpressApp.EasyTest.BlazorAdapter" Version="25.1.6" />
-    <PackageReference Include="DevExpress.ExpressApp.EasyTest.WinAdapter" Version="25.1.6" />
+    <PackageReference Include="DevExpress.ExpressApp.EasyTest.BlazorAdapter" Version="25.2.3" />
+    <PackageReference Include="DevExpress.ExpressApp.EasyTest.WinAdapter" Version="25.2.3" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DXApplication1.Module\DXApplication1.Module.csproj" />

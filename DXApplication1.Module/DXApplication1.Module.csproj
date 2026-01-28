@@ -26,18 +26,16 @@
     <PackageReference Include="DevExpress.ExpressApp.ConditionalAppearance" Version="25.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.Dashboards" Version="25.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.Notifications" Version="25.1.6" />
-    <PackageReference Include="DevExpress.ExpressApp.Objects" Version="25.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.Office" Version="25.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.ReportsV2" Version="25.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.Scheduler" Version="25.1.6" />
-    <PackageReference Include="DevExpress.ExpressApp.ScriptRecorder" Version="25.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.StateMachine" Version="25.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.Validation" Version="25.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.ViewVariantsModule" Version="25.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="25.1.6" />
     <PackageReference Include="DevExpress.Persistent.Base" Version="25.1.6" />
     <PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="25.1.6" />
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.2" />
     <PackageReference Include="MySql.Data" Version="9.5.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.14.0" />
   </ItemGroup>
@@ -47,6 +45,9 @@
     </None>
     <None Update="BusinessObjects\ORMDataModel1.xpo.diagram">
       <AutoGen>True</AutoGen>
+    </None>
+    <None Update="UnusableNodes.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
     </None>
   </ItemGroup>
 </Project>

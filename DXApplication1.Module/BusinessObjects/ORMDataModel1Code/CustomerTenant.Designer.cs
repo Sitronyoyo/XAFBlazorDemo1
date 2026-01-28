@@ -16,8 +16,7 @@ using System.Reflection;
 namespace DXApplication1.Module.BusinessObjects.Database
 {
 
-    [Persistent(@"customer")]
-    public partial class Customer : XPObject
+    public partial class CustomerTenant : XPObject
     {
         string fName;
         public string Name
@@ -25,16 +24,12 @@ namespace DXApplication1.Module.BusinessObjects.Database
             get { return fName; }
             set { SetPropertyValue<string>(nameof(Name), ref fName, value); }
         }
-        int fAge;
-        public int Age
+        string fConnectionString;
+        public string ConnectionString
         {
-            get { return fAge; }
-            set { SetPropertyValue<int>(nameof(Age), ref fAge, value); }
+            get { return fConnectionString; }
+            set { SetPropertyValue<string>(nameof(ConnectionString), ref fConnectionString, value); }
         }
-        [Association(@"InvoiceReferencesCustomer")]
-        public XPCollection<Invoice> Invoices { get { return GetCollection<Invoice>(nameof(Invoices)); } }
-        [Association(@"OrderReferencesCustomer")]
-        public XPCollection<Order> Orders { get { return GetCollection<Order>(nameof(Orders)); } }
     }
 
 }

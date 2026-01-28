@@ -8,11 +8,4 @@
     <SchemaModule Name="SchedulerModuleBase" Version="25.1.6.0" IsNewNode="True" />
     <SchemaModule Name="SystemModule" Version="25.1.6.0" IsNewNode="True" />
   </SchemaModules>
-  <Views>
-    <ListView Id="Customer_ListView">
-      <Columns>
-        <ColumnInfo Id="OrdersTotalAmount" Index="-1" />
-      </Columns>
-    </ListView>
-  </Views>
 </Application>

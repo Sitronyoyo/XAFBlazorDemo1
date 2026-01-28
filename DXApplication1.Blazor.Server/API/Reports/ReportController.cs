@@ -13,6 +13,7 @@ using Swashbuckle.AspNetCore.Annotations;
 namespace DXApplication1.WebApi.Reports;
 
 [Route("api/[controller]")]
+[Microsoft.AspNetCore.Mvc.ValidateAntiForgeryToken]
 // This is a WebApi Reports controller sample.
 public class ReportController : ControllerBase {
     private readonly IReportExportService service;
