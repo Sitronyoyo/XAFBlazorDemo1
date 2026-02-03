@@ -31,4 +31,9 @@ Make sure these dependencies are correctly referenced in the project.
 3. Click the **Run (▶)** button to start the application.  
 
 The application should open a page where you can start interacting with it.
- 
+
+
+### 4. Additional Information about Norweigian SAF_T Format from Skatteetaten:
+
+[SAF-T Financial Data Documentation](https://www.skatteetaten.no/en/business-and-organisation/start-and-run/best-practices-accounting-and-cash-register-systems/saf-t-financial/documentation/)
+[SAF_T GitHub](https://github.com/Skatteetaten/saf-t/tree/master/SAF-T_Financial_1.3)
